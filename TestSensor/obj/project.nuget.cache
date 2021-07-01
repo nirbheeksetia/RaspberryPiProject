@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PuktyU4YkmfUyaZk3psCvoZkZCVnkKMI4+3KGNg/zO3SiQwk+cMcbXZQKepj8S300TzUcbaTQYI7xC7HCdGPYA==",
+  "success": true,
+  "projectFilePath": "C:\\myPrograms\\RaspberryPiProject\\TestSensor\\TestSensor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chint\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\system.device.gpio\\1.4.0\\system.device.gpio.1.4.0.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\chint\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
