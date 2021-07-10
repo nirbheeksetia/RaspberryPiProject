@@ -5,11 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorLibrary", "SensorLibrary.csproj", "{13E95AB8-5F20-4CC3-9BC0-6F9A68822910}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSensor", "..\TestSensor\TestSensor.csproj", "{29DCCBD1-0E77-4C59-A0C1-A8BCCEEBB969}"
-EndProject
-Project("{34036844-64E7-43A5-9151-4AD90E180989}") = "Humididty", "..\Humididty\Humididty.iotedgeproj", "{E7AC6F47-3990-40D7-B9B9-C536E97ABF37}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humidity", "..\Humidity\Humidity.csproj", "{68A8E5C6-CAFC-40B8-940B-083EB6652FF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumidityConsole", "..\HumidityConsole\HumidityConsole.csproj", "{4B2DC7CB-8DF8-4AF5-8155-E6003F39D974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +17,10 @@ Global
 		{13E95AB8-5F20-4CC3-9BC0-6F9A68822910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E95AB8-5F20-4CC3-9BC0-6F9A68822910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E95AB8-5F20-4CC3-9BC0-6F9A68822910}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29DCCBD1-0E77-4C59-A0C1-A8BCCEEBB969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29DCCBD1-0E77-4C59-A0C1-A8BCCEEBB969}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29DCCBD1-0E77-4C59-A0C1-A8BCCEEBB969}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29DCCBD1-0E77-4C59-A0C1-A8BCCEEBB969}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7AC6F47-3990-40D7-B9B9-C536E97ABF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7AC6F47-3990-40D7-B9B9-C536E97ABF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7AC6F47-3990-40D7-B9B9-C536E97ABF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7AC6F47-3990-40D7-B9B9-C536E97ABF37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68A8E5C6-CAFC-40B8-940B-083EB6652FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68A8E5C6-CAFC-40B8-940B-083EB6652FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68A8E5C6-CAFC-40B8-940B-083EB6652FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68A8E5C6-CAFC-40B8-940B-083EB6652FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2DC7CB-8DF8-4AF5-8155-E6003F39D974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2DC7CB-8DF8-4AF5-8155-E6003F39D974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2DC7CB-8DF8-4AF5-8155-E6003F39D974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2DC7CB-8DF8-4AF5-8155-E6003F39D974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

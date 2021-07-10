@@ -51,16 +51,6 @@
           }
         },
         "modules": {
-          "Humidity": {
-            "version": "1.0.0",
-            "type": "docker",
-            "status": "running",
-            "restartPolicy": "always",
-            "settings": {
-              "image": "${MODULEDIR<../Humidity>.debug}",
-              "createOptions": {}
-            }
-          },
           "SimulatedTemperatureSensor": {
             "version": "1.0",
             "type": "docker",
@@ -77,10 +67,7 @@
     "$edgeHub": {
       "properties.desired": {
         "schemaVersion": "1.0",
-        "routes": {
-          "HumidityToIoTHub": "FROM /messages/modules/Humidity/outputs/* INTO $upstream",
-          "sensorToHumidity": "FROM /messages/modules/SimulatedTemperatureSensor/outputs/temperatureOutput INTO BrokeredEndpoint(\"/modules/Humidity/inputs/input1\")"
-        },
+        "routes": {},
         "storeAndForwardConfiguration": {
           "timeToLiveSecs": 7200
         }
