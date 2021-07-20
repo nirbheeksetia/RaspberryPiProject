@@ -13,7 +13,7 @@ namespace HumidityConsole
             while (true)
             {
                 var humidityData = sensor.ReadData();
-                var connectionString = "[the connection string of your device]";
+                var connectionString = "HostName=humitidysensor.azure-devices.net;DeviceId=RaspberryPi;SharedAccessKey=QF0fGObV12HOrCEtbZRZQCT78Gy+cqikm6FWeIN9j1I=";
 
                 using var deviceClient = DeviceClient.CreateFromConnectionString(connectionString);
 

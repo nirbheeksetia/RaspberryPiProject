@@ -19,7 +19,7 @@ namespace SensorLibrary
             using GpioController controller = new();
             controller.OpenPin(ledPin);
             var returnVal = -1;
-            //while (true)
+            while (true)
             {
                 var val = controller.Read(ledPin);
                 //Console.WriteLine(val.ToString());
