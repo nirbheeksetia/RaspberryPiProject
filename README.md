@@ -1,5 +1,5 @@
 # Introduction 
-This project is a neat IOT-solution which tells the user exactly when he should water his plants an whenhe shouldn't. Feel free to play around and download for yourself!
+This project is a neat IOT-solution which tells the user exactly when he should water his plants and when he shouldn't. Feel free to play around and download for yourself!
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
